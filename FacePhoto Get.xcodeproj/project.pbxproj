@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15667FB31BC9B42000447E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15667FB21BC9B42000447E1E /* AppDelegate.swift */; };
+		15667FB61BC9B42000447E1E /* FacePhoto_Get.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15667FB41BC9B42000447E1E /* FacePhoto_Get.xcdatamodeld */; };
+		15667FB81BC9B42000447E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15667FB71BC9B42000447E1E /* ViewController.swift */; };
+		15667FBB1BC9B42000447E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15667FB91BC9B42000447E1E /* Main.storyboard */; };
+		15667FBD1BC9B42000447E1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15667FBC1BC9B42000447E1E /* Images.xcassets */; };
+		15667FC01BC9B42000447E1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15667FBE1BC9B42000447E1E /* LaunchScreen.xib */; };
+		15667FCC1BC9B42000447E1E /* FacePhoto_GetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15667FCB1BC9B42000447E1E /* FacePhoto_GetTests.swift */; };
+		7A5AD575F95FA0D1D041CFB1 /* Pods_FacePhoto_Get.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E425E9D903C8AC18AC59D0BC /* Pods_FacePhoto_Get.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15667FC61BC9B42000447E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15667FA51BC9B42000447E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15667FAC1BC9B42000447E1E;
+			remoteInfo = "FacePhoto Get";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15667FAD1BC9B42000447E1E /* FacePhoto Get.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FacePhoto Get.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15667FB11BC9B42000447E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15667FB21BC9B42000447E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15667FB51BC9B42000447E1E /* FacePhoto_Get.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FacePhoto_Get.xcdatamodel; sourceTree = "<group>"; };
+		15667FB71BC9B42000447E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15667FBA1BC9B42000447E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15667FBC1BC9B42000447E1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15667FBF1BC9B42000447E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		15667FC51BC9B42000447E1E /* FacePhoto GetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FacePhoto GetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15667FCA1BC9B42000447E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15667FCB1BC9B42000447E1E /* FacePhoto_GetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePhoto_GetTests.swift; sourceTree = "<group>"; };
+		50C0E8EE9599D924F3F6D853 /* Pods-FacePhoto Get.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacePhoto Get.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacePhoto Get/Pods-FacePhoto Get.debug.xcconfig"; sourceTree = "<group>"; };
+		E425E9D903C8AC18AC59D0BC /* Pods_FacePhoto_Get.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacePhoto_Get.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FE42DDF3C6F902E2687302 /* Pods-FacePhoto Get.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacePhoto Get.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacePhoto Get/Pods-FacePhoto Get.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15667FAA1BC9B42000447E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5AD575F95FA0D1D041CFB1 /* Pods_FacePhoto_Get.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15667FC21BC9B42000447E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15667FA41BC9B42000447E1E = {
+			isa = PBXGroup;
+			children = (
+				15667FAF1BC9B42000447E1E /* FacePhoto Get */,
+				15667FC81BC9B42000447E1E /* FacePhoto GetTests */,
+				15667FAE1BC9B42000447E1E /* Products */,
+				48B221E8601B60383ABBBB64 /* Pods */,
+				880B7D4E305E80E0B4A6901F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15667FAE1BC9B42000447E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15667FAD1BC9B42000447E1E /* FacePhoto Get.app */,
+				15667FC51BC9B42000447E1E /* FacePhoto GetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15667FAF1BC9B42000447E1E /* FacePhoto Get */ = {
+			isa = PBXGroup;
+			children = (
+				15667FB21BC9B42000447E1E /* AppDelegate.swift */,
+				15667FB71BC9B42000447E1E /* ViewController.swift */,
+				15667FB91BC9B42000447E1E /* Main.storyboard */,
+				15667FBC1BC9B42000447E1E /* Images.xcassets */,
+				15667FBE1BC9B42000447E1E /* LaunchScreen.xib */,
+				15667FB41BC9B42000447E1E /* FacePhoto_Get.xcdatamodeld */,
+				15667FB01BC9B42000447E1E /* Supporting Files */,
+			);
+			path = "FacePhoto Get";
+			sourceTree = "<group>";
+		};
+		15667FB01BC9B42000447E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15667FB11BC9B42000447E1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15667FC81BC9B42000447E1E /* FacePhoto GetTests */ = {
+			isa = PBXGroup;
+			children = (
+				15667FCB1BC9B42000447E1E /* FacePhoto_GetTests.swift */,
+				15667FC91BC9B42000447E1E /* Supporting Files */,
+			);
+			path = "FacePhoto GetTests";
+			sourceTree = "<group>";
+		};
+		15667FC91BC9B42000447E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15667FCA1BC9B42000447E1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48B221E8601B60383ABBBB64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50C0E8EE9599D924F3F6D853 /* Pods-FacePhoto Get.debug.xcconfig */,
+				F1FE42DDF3C6F902E2687302 /* Pods-FacePhoto Get.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		880B7D4E305E80E0B4A6901F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E425E9D903C8AC18AC59D0BC /* Pods_FacePhoto_Get.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15667FAC1BC9B42000447E1E /* FacePhoto Get */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15667FCF1BC9B42000447E1E /* Build configuration list for PBXNativeTarget "FacePhoto Get" */;
+			buildPhases = (
+				EB7462AE6447631CD500CF62 /* Check Pods Manifest.lock */,
+				15667FA91BC9B42000447E1E /* Sources */,
+				15667FAA1BC9B42000447E1E /* Frameworks */,
+				15667FAB1BC9B42000447E1E /* Resources */,
+				F102BF1C30BED55F52D6C964 /* Embed Pods Frameworks */,
+				9A28496C09ADE90796D30024 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FacePhoto Get";
+			productName = "FacePhoto Get";
+			productReference = 15667FAD1BC9B42000447E1E /* FacePhoto Get.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15667FC41BC9B42000447E1E /* FacePhoto GetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15667FD21BC9B42000447E1E /* Build configuration list for PBXNativeTarget "FacePhoto GetTests" */;
+			buildPhases = (
+				15667FC11BC9B42000447E1E /* Sources */,
+				15667FC21BC9B42000447E1E /* Frameworks */,
+				15667FC31BC9B42000447E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15667FC71BC9B42000447E1E /* PBXTargetDependency */,
+			);
+			name = "FacePhoto GetTests";
+			productName = "FacePhoto GetTests";
+			productReference = 15667FC51BC9B42000447E1E /* FacePhoto GetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15667FA51BC9B42000447E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Lanzivision;
+				TargetAttributes = {
+					15667FAC1BC9B42000447E1E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					15667FC41BC9B42000447E1E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 15667FAC1BC9B42000447E1E;
+					};
+				};
+			};
+			buildConfigurationList = 15667FA81BC9B42000447E1E /* Build configuration list for PBXProject "FacePhoto Get" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15667FA41BC9B42000447E1E;
+			productRefGroup = 15667FAE1BC9B42000447E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15667FAC1BC9B42000447E1E /* FacePhoto Get */,
+				15667FC41BC9B42000447E1E /* FacePhoto GetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15667FAB1BC9B42000447E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15667FBB1BC9B42000447E1E /* Main.storyboard in Resources */,
+				15667FC01BC9B42000447E1E /* LaunchScreen.xib in Resources */,
+				15667FBD1BC9B42000447E1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15667FC31BC9B42000447E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A28496C09ADE90796D30024 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacePhoto Get/Pods-FacePhoto Get-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7462AE6447631CD500CF62 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F102BF1C30BED55F52D6C964 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacePhoto Get/Pods-FacePhoto Get-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15667FA91BC9B42000447E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15667FB81BC9B42000447E1E /* ViewController.swift in Sources */,
+				15667FB61BC9B42000447E1E /* FacePhoto_Get.xcdatamodeld in Sources */,
+				15667FB31BC9B42000447E1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15667FC11BC9B42000447E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15667FCC1BC9B42000447E1E /* FacePhoto_GetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15667FC71BC9B42000447E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15667FAC1BC9B42000447E1E /* FacePhoto Get */;
+			targetProxy = 15667FC61BC9B42000447E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15667FB91BC9B42000447E1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15667FBA1BC9B42000447E1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15667FBE1BC9B42000447E1E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15667FBF1BC9B42000447E1E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15667FCD1BC9B42000447E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15667FCE1BC9B42000447E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15667FD01BC9B42000447E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C0E8EE9599D924F3F6D853 /* Pods-FacePhoto Get.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FacePhoto Get/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		15667FD11BC9B42000447E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FE42DDF3C6F902E2687302 /* Pods-FacePhoto Get.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FacePhoto Get/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		15667FD31BC9B42000447E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FacePhoto GetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacePhoto Get.app/FacePhoto Get";
+			};
+			name = Debug;
+		};
+		15667FD41BC9B42000447E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FacePhoto GetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacePhoto Get.app/FacePhoto Get";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15667FA81BC9B42000447E1E /* Build configuration list for PBXProject "FacePhoto Get" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15667FCD1BC9B42000447E1E /* Debug */,
+				15667FCE1BC9B42000447E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15667FCF1BC9B42000447E1E /* Build configuration list for PBXNativeTarget "FacePhoto Get" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15667FD01BC9B42000447E1E /* Debug */,
+				15667FD11BC9B42000447E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15667FD21BC9B42000447E1E /* Build configuration list for PBXNativeTarget "FacePhoto GetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15667FD31BC9B42000447E1E /* Debug */,
+				15667FD41BC9B42000447E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15667FB41BC9B42000447E1E /* FacePhoto_Get.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15667FB51BC9B42000447E1E /* FacePhoto_Get.xcdatamodel */,
+			);
+			currentVersion = 15667FB51BC9B42000447E1E /* FacePhoto_Get.xcdatamodel */;
+			path = FacePhoto_Get.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15667FA51BC9B42000447E1E /* Project object */;
+}
