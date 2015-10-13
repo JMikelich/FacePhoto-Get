@@ -14,6 +14,9 @@
 		15667FBD1BC9B42000447E1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15667FBC1BC9B42000447E1E /* Images.xcassets */; };
 		15667FC01BC9B42000447E1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15667FBE1BC9B42000447E1E /* LaunchScreen.xib */; };
 		15667FCC1BC9B42000447E1E /* FacePhoto_GetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15667FCB1BC9B42000447E1E /* FacePhoto_GetTests.swift */; };
+		1568C5A11BCB453900D77E39 /* FBModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568C5A01BCB453900D77E39 /* FBModule.swift */; };
+		159DBA121BCCA50B009CAFF5 /* MetadataPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 159DBA111BCCA50B009CAFF5 /* MetadataPList.plist */; };
+		159DBA131BCCA50B009CAFF5 /* MetadataPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 159DBA111BCCA50B009CAFF5 /* MetadataPList.plist */; };
 		7A5AD575F95FA0D1D041CFB1 /* Pods_FacePhoto_Get.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E425E9D903C8AC18AC59D0BC /* Pods_FacePhoto_Get.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,8 @@
 		15667FC51BC9B42000447E1E /* FacePhoto GetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FacePhoto GetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15667FCA1BC9B42000447E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15667FCB1BC9B42000447E1E /* FacePhoto_GetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePhoto_GetTests.swift; sourceTree = "<group>"; };
+		1568C5A01BCB453900D77E39 /* FBModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBModule.swift; sourceTree = "<group>"; };
+		159DBA111BCCA50B009CAFF5 /* MetadataPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MetadataPList.plist; sourceTree = "<group>"; };
 		50C0E8EE9599D924F3F6D853 /* Pods-FacePhoto Get.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacePhoto Get.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacePhoto Get/Pods-FacePhoto Get.debug.xcconfig"; sourceTree = "<group>"; };
 		E425E9D903C8AC18AC59D0BC /* Pods_FacePhoto_Get.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacePhoto_Get.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FE42DDF3C6F902E2687302 /* Pods-FacePhoto Get.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacePhoto Get.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacePhoto Get/Pods-FacePhoto Get.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,8 +91,8 @@
 		15667FAF1BC9B42000447E1E /* FacePhoto Get */ = {
 			isa = PBXGroup;
 			children = (
+				157CB9951BCB0E5F00890902 /* Intro View */,
 				15667FB21BC9B42000447E1E /* AppDelegate.swift */,
-				15667FB71BC9B42000447E1E /* ViewController.swift */,
 				15667FB91BC9B42000447E1E /* Main.storyboard */,
 				15667FBC1BC9B42000447E1E /* Images.xcassets */,
 				15667FBE1BC9B42000447E1E /* LaunchScreen.xib */,
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				15667FB11BC9B42000447E1E /* Info.plist */,
+				159DBA111BCCA50B009CAFF5 /* MetadataPList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,6 +126,15 @@
 				15667FCA1BC9B42000447E1E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		157CB9951BCB0E5F00890902 /* Intro View */ = {
+			isa = PBXGroup;
+			children = (
+				15667FB71BC9B42000447E1E /* ViewController.swift */,
+				1568C5A01BCB453900D77E39 /* FBModule.swift */,
+			);
+			name = "Intro View";
 			sourceTree = "<group>";
 		};
 		48B221E8601B60383ABBBB64 /* Pods */ = {
@@ -224,6 +239,7 @@
 			files = (
 				15667FBB1BC9B42000447E1E /* Main.storyboard in Resources */,
 				15667FC01BC9B42000447E1E /* LaunchScreen.xib in Resources */,
+				159DBA121BCCA50B009CAFF5 /* MetadataPList.plist in Resources */,
 				15667FBD1BC9B42000447E1E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159DBA131BCCA50B009CAFF5 /* MetadataPList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +310,7 @@
 				15667FB81BC9B42000447E1E /* ViewController.swift in Sources */,
 				15667FB61BC9B42000447E1E /* FacePhoto_Get.xcdatamodeld in Sources */,
 				15667FB31BC9B42000447E1E /* AppDelegate.swift in Sources */,
+				1568C5A11BCB453900D77E39 /* FBModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

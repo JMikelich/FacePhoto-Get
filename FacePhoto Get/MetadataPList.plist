@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FacebookParameters</key>
+	<string>id, name, first_name, last_name, picture.type(large), email</string>
+	<key>FacebookPermissions</key>
+	<string>email</string>
+</dict>
+</plist>
